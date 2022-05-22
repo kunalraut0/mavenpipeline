@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('pull') { 
             steps {
-                git branch: 'main', url: 'https://github.com/kunalraut0/mavenpipeline.git'
+                git branch: 'main', url: 'https://github.com/kunalraut0/guestbook.git'
             }
         }
         
