@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('pull') { 
             steps {
-                git branch: 'main', url: 'https://github.com/kunalraut0/kunal-maven-build.git'
+                git 'https://github.com/kunalraut0/kunal-maven-1.git'
             }
         }
         
